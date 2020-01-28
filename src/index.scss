@@ -1,0 +1,7 @@
+@import './theme/reset';
+@import '~react-md/src/scss/react-md';
+
+$md-primary-color: $md-grey-900;
+$md-secondary-color: $md-grey-500;
+
+@include react-md-everything;
